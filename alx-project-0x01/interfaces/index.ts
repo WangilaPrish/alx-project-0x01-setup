@@ -12,4 +12,6 @@ export interface PostProps {
     email: string;
     phone: string;
     website: string;
+    street: string;
+    catchPhrase: string;
   }
