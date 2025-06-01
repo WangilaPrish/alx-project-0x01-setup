@@ -54,4 +54,5 @@ export interface UserData {
     isOpen: boolean;
     onClose: () => void;
     onSave: (user: UserData) => void;
+    onSubmit: (post: UserProps) => void;
   }
